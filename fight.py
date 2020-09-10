@@ -15,6 +15,5 @@ def fight():
             break
         elif your_hp <= 0:
             print('我赢了')
-            print(f"我的血槽{my_hp},你的血槽{your_hp}")
             break
 fight()
