@@ -1,0 +1,65 @@
+add:
+    add_datas:
+        - [1,2,3]
+        - [-1,2,1]
+        - [0.1,0.2,0.3]
+        - [0,0,0]
+        - [10000,10000,20000]
+        - ['null',1,'error']
+        - [1,'hi','error']
+    add_ids:
+        - 'int'
+        - 'minus'
+        - 'float'
+        - 'zero'
+        - 'bigint'
+        - 'null'
+        - 'str'
+sub:
+    sub_datas:
+        - [2,1,1]
+        - [10000,10,9990]
+        - [0.5,0.2,0.3]
+        - [-2,-2,-4]
+        - ['null',1,'error']
+        - [1,'str','error']
+    sub_ids:
+        - 'int'
+        - 'bigint'
+        - 'float'
+        - 'minus'
+        - 'null'
+        - 'str'
+
+mul:
+    mul_datas:
+        - [2,1,2]
+        - [-1,2,-2]
+        - [0.1,2,0.2]
+        - [-2,-2,4]
+        - [0,2,0]
+        - [0.00001,0.00002,0.00003]
+        - [100,10000,1000000]
+        - [1,'hi','error']
+        - ['null',2,'error']
+    mul_ids:
+        - ['int','oneminus','float','bothminus','zero','bigfloat','bigint','str','null']
+div:
+    div_datas:
+        - [6,3,2]
+        - [1,0.2,5]
+        - [0.2,0.4,0.5]
+        - [0,1,0]
+        - [10,-5,-2]
+        - [1,0,'error']
+        - [2,'hi','error']
+        - ['null',1,'error']
+    div_ids:
+        - ['int','onefloat','bothfloat','zerodived','minus','zerodiv','str','null']
+dd:
+    dd_datas:
+        - [1,1]
+        - [2,2]
+        - [3,3]
+    dd_ids:
+        - ['one','two','three']
