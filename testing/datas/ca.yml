@@ -1,0 +1,22 @@
+data:
+  adddata:
+    - [1,30,31]
+    - [0.2,4,4.2]
+    - [-1,-0.8,-1.8]
+  divdata:
+    - [2,1,2]
+    - [4.2,2,2.1]
+    - [-10,4,-2.5]
+    - [1,0,excep]
+    - [10,3,3.333]
+  dataids:
+    addid:
+      - 'int'
+      - 'float'
+      - 'minus'
+    divid:
+      - 'divint'
+      - 'divfloat'
+      - 'divminus'
+      - 'divzero'
+      - 'divround'
